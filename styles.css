@@ -20,6 +20,24 @@ nav {
   letter-spacing: 1px;
 }
 
+#view--plans--nav {
+  font-family: "Karla";
+  font-weight: 700;
+  width: 154px;
+  height: 44px;
+  background-color: white;
+  color: hsl(256, 26%, 20%);
+  border: 2px solid hsl(256, 26%, 20%);
+  letter-spacing: 1px;
+}
+
+#view--plans--nav:hover {
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
 #links {
   display: flex;
   align-items: center;
@@ -36,15 +54,6 @@ nav {
   cursor: pointer;
 }
 
-button {
-  width: 154px;
-  height: 44px;
-  background-color: white;
-  color: black;
-  font-weight: 700;
-  letter-spacing: 1px;
-}
-
 main {
   height: 65vh;
   background-color: hsl(256, 26%, 20%);
@@ -54,7 +63,6 @@ main {
   display: flex;
   justify-content: space-between;
   position: relative;
-  z-index: -1;
 }
 
 #bg {
@@ -87,40 +95,27 @@ header > p {
   line-height: 2;
 }
 
-header > button:hover {
-  cursor: pointer;
-}
-
-#view--plans--nav {
-  background-color: white;
-  color: hsl(256, 26%, 20%);
-  border: 2px solid hsl(256, 26%, 20%);
-  letter-spacing: 2px;
-}
-
-#view--plans--nav:hover {
-  background-color: hsl(256, 26%, 20%);
-  color: white;
-  border: 1px solid white;
-  cursor: pointer;
-}
-
 img {
   height: 118%;
 }
 
-#view--plans {
+.view-plans {
+  font-family: "Karla";
+  font-weight: 700;
+  width: 154px;
+  height: 44px;
   margin-top: 24px;
   background-color: hsl(256, 26%, 20%);
   color: white;
   border: 1px solid white;
   cursor: pointer;
+  letter-spacing: 1px;
 }
 
-#view--plans:hover {
+.view-plans:hover {
     cursor: pointer;
     background-color: white;
-    color: hsl(256, 26%, 20%)
+    color: hsl(256, 26%, 20%);
 }
 
 #bg--left {
@@ -197,6 +192,10 @@ h4 {
 }
 
 #we--work {
+  width: 154px;
+    height: 44px;
+    font-family: "Karla";
+    font-weight: 700;
     background-color: hsl(256, 26%, 20%);
     color: white;
     border: 2px solid white;
@@ -395,6 +394,8 @@ footer > hr {
     align-items: center;
   }
 
+  
+
   #footer--links {
     margin-top: 32px;
   }
@@ -406,6 +407,11 @@ footer > hr {
     float: none;
     margin: 0;
     width: 100%;
+  }
+
+  .social {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .footer--head {
